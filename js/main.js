@@ -10,6 +10,7 @@ function Hero(game, x, y) {
     // call Phaser.Sprite constructor
     Phaser.Sprite.call(this, game, x, y, 'hero');
 
+    
     // anchor
     this.anchor.set(0.5, 0.5);
     // physics properties
